@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="23" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-13T13:40:52 IST" name="Suite" finished-at="2024-12-13T13:42:45 IST" duration-ms="112409">
+    <groups>
+    </groups>
+    <test started-at="2024-12-13T13:40:52 IST" name="Test" finished-at="2024-12-13T13:42:45 IST" duration-ms="112409">
+      <class name="Test.TC_001_SignUp_TestCase">
+        <test-method is-config="true" signature="readfilefrom()[pri:0, instance:Test.TC_001_SignUp_TestCase@57a3af25]" started-at="2024-12-13T13:40:52 IST" name="readfilefrom" finished-at="2024-12-13T13:40:52 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readfilefrom -->
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_001_SignUp_TestCase@57a3af25]" started-at="2024-12-13T13:40:52 IST" name="contactlistopen" finished-at="2024-12-13T13:41:00 IST" duration-ms="7363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="SignUpTestCase()[pri:1, instance:Test.TC_001_SignUp_TestCase@57a3af25]" started-at="2024-12-13T13:41:00 IST" name="SignUpTestCase" finished-at="2024-12-13T13:41:05 IST" duration-ms="5058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpTestCase -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_001_SignUp_TestCase@57a3af25]" started-at="2024-12-13T13:41:05 IST" name="contactclose" finished-at="2024-12-13T13:41:05 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_001_SignUp_TestCase -->
+      <class name="Test.TC_005_SignUpContactListAdd_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_005_SignUpContactListAdd_TestCase@6069db50]" started-at="2024-12-13T13:41:25 IST" name="contactlistopen" finished-at="2024-12-13T13:41:31 IST" duration-ms="5632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="Signuptestcase()[pri:5, instance:Test.TC_005_SignUpContactListAdd_TestCase@6069db50]" started-at="2024-12-13T13:41:31 IST" name="Signuptestcase" finished-at="2024-12-13T13:41:34 IST" duration-ms="3055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signuptestcase -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_005_SignUpContactListAdd_TestCase@6069db50]" started-at="2024-12-13T13:41:34 IST" name="contactclose" finished-at="2024-12-13T13:41:34 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_005_SignUpContactListAdd_TestCase -->
+      <class name="Test.TC_006_EditTheContact_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_006_EditTheContact_TestCase@4efbca5a]" started-at="2024-12-13T13:41:34 IST" name="contactlistopen" finished-at="2024-12-13T13:41:40 IST" duration-ms="5721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="editcontactTestcase()[pri:6, instance:Test.TC_006_EditTheContact_TestCase@4efbca5a]" started-at="2024-12-13T13:41:40 IST" name="editcontactTestcase" finished-at="2024-12-13T13:41:48 IST" duration-ms="8369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editcontactTestcase -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_006_EditTheContact_TestCase@4efbca5a]" started-at="2024-12-13T13:41:48 IST" name="contactclose" finished-at="2024-12-13T13:41:49 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_006_EditTheContact_TestCase -->
+      <class name="Test.TC_008_DuplicateDetails_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_008_DuplicateDetails_TestCase@67c27493]" started-at="2024-12-13T13:41:57 IST" name="contactlistopen" finished-at="2024-12-13T13:42:03 IST" duration-ms="5683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="duplicatedetailsTestCase()[pri:8, instance:Test.TC_008_DuplicateDetails_TestCase@67c27493]" started-at="2024-12-13T13:42:03 IST" name="duplicatedetailsTestCase" finished-at="2024-12-13T13:42:07 IST" duration-ms="3873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicatedetailsTestCase -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_008_DuplicateDetails_TestCase@67c27493]" started-at="2024-12-13T13:42:07 IST" name="contactclose" finished-at="2024-12-13T13:42:07 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_008_DuplicateDetails_TestCase -->
+      <class name="Test.TC_007_OnlyMandatoryFields_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_007_OnlyMandatoryFields_TestCase@1b7cc17c]" started-at="2024-12-13T13:41:49 IST" name="contactlistopen" finished-at="2024-12-13T13:41:54 IST" duration-ms="5775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="onlymandatoryfieldsTestCase()[pri:7, instance:Test.TC_007_OnlyMandatoryFields_TestCase@1b7cc17c]" started-at="2024-12-13T13:41:54 IST" name="onlymandatoryfieldsTestCase" finished-at="2024-12-13T13:41:57 IST" duration-ms="2659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlymandatoryfieldsTestCase -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_007_OnlyMandatoryFields_TestCase@1b7cc17c]" started-at="2024-12-13T13:41:57 IST" name="contactclose" finished-at="2024-12-13T13:41:57 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_007_OnlyMandatoryFields_TestCase -->
+      <class name="Test.TC_004_InvalidEmailPassword">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_004_InvalidEmailPassword@9597028]" started-at="2024-12-13T13:41:19 IST" name="contactlistopen" finished-at="2024-12-13T13:41:24 IST" duration-ms="5543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="invalidlogintest()[pri:4, instance:Test.TC_004_InvalidEmailPassword@9597028]" started-at="2024-12-13T13:41:24 IST" name="invalidlogintest" finished-at="2024-12-13T13:41:25 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogintest -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_004_InvalidEmailPassword@9597028]" started-at="2024-12-13T13:41:25 IST" name="contactclose" finished-at="2024-12-13T13:41:25 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_004_InvalidEmailPassword -->
+      <class name="Test.TC_003_VerifyingWeatherSwitchingtoContact_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_003_VerifyingWeatherSwitchingtoContact_TestCase@49139829]" started-at="2024-12-13T13:41:12 IST" name="contactlistopen" finished-at="2024-12-13T13:41:17 IST" duration-ms="5406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="logintocontactscreenTestCase()[pri:3, instance:Test.TC_003_VerifyingWeatherSwitchingtoContact_TestCase@49139829]" started-at="2024-12-13T13:41:17 IST" name="logintocontactscreenTestCase" finished-at="2024-12-13T13:41:18 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintocontactscreenTestCase -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_003_VerifyingWeatherSwitchingtoContact_TestCase@49139829]" started-at="2024-12-13T13:41:18 IST" name="contactclose" finished-at="2024-12-13T13:41:19 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_003_VerifyingWeatherSwitchingtoContact_TestCase -->
+      <class name="Test.TC_011_DeletingAContact_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_011_DeletingAContact_TestCase@5b8dfcc1]" started-at="2024-12-13T13:42:27 IST" name="contactlistopen" finished-at="2024-12-13T13:42:33 IST" duration-ms="5617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="deletecontactTestCase()[pri:11, instance:Test.TC_011_DeletingAContact_TestCase@5b8dfcc1]" started-at="2024-12-13T13:42:33 IST" name="deletecontactTestCase" finished-at="2024-12-13T13:42:35 IST" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecontactTestCase -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_011_DeletingAContact_TestCase@5b8dfcc1]" started-at="2024-12-13T13:42:35 IST" name="contactclose" finished-at="2024-12-13T13:42:36 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_011_DeletingAContact_TestCase -->
+      <class name="Test.TC_009_InvalidDateFormat_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_009_InvalidDateFormat_TestCase@1a482e36]" started-at="2024-12-13T13:42:07 IST" name="contactlistopen" finished-at="2024-12-13T13:42:13 IST" duration-ms="5765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="invaliddateformat()[pri:9, instance:Test.TC_009_InvalidDateFormat_TestCase@1a482e36]" started-at="2024-12-13T13:42:13 IST" name="invaliddateformat" finished-at="2024-12-13T13:42:16 IST" duration-ms="3157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invaliddateformat -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_009_InvalidDateFormat_TestCase@1a482e36]" started-at="2024-12-13T13:42:16 IST" name="contactclose" finished-at="2024-12-13T13:42:16 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_009_InvalidDateFormat_TestCase -->
+      <class name="Test.TC_012_LogOut_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_012_LogOut_TestCase@2f9f7dcf]" started-at="2024-12-13T13:42:36 IST" name="contactlistopen" finished-at="2024-12-13T13:42:41 IST" duration-ms="5886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="logout()[pri:12, instance:Test.TC_012_LogOut_TestCase@2f9f7dcf]" started-at="2024-12-13T13:42:41 IST" name="logout" finished-at="2024-12-13T13:42:44 IST" duration-ms="2914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_012_LogOut_TestCase@2f9f7dcf]" started-at="2024-12-13T13:42:44 IST" name="contactclose" finished-at="2024-12-13T13:42:45 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_012_LogOut_TestCase -->
+      <class name="Test.TC_002_LoginCheck_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_002_LoginCheck_TestCase@223191a6]" started-at="2024-12-13T13:41:05 IST" name="contactlistopen" finished-at="2024-12-13T13:41:11 IST" duration-ms="6095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="LoginCheckTestCase()[pri:2, instance:Test.TC_002_LoginCheck_TestCase@223191a6]" started-at="2024-12-13T13:41:11 IST" name="LoginCheckTestCase" finished-at="2024-12-13T13:41:11 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCheckTestCase -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_002_LoginCheck_TestCase@223191a6]" started-at="2024-12-13T13:41:11 IST" name="contactclose" finished-at="2024-12-13T13:41:12 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_002_LoginCheck_TestCase -->
+      <class name="Test.TC_010_CheckingAfterSuccessfulladdcontact_TestCase">
+        <test-method is-config="true" signature="contactlistopen()[pri:0, instance:Test.TC_010_CheckingAfterSuccessfulladdcontact_TestCase@72967906]" started-at="2024-12-13T13:42:16 IST" name="contactlistopen" finished-at="2024-12-13T13:42:22 IST" duration-ms="5801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactlistopen -->
+        <test-method signature="checkthecontactadded()[pri:10, instance:Test.TC_010_CheckingAfterSuccessfulladdcontact_TestCase@72967906]" started-at="2024-12-13T13:42:22 IST" name="checkthecontactadded" finished-at="2024-12-13T13:42:27 IST" duration-ms="4843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkthecontactadded -->
+        <test-method is-config="true" signature="contactclose()[pri:0, instance:Test.TC_010_CheckingAfterSuccessfulladdcontact_TestCase@72967906]" started-at="2024-12-13T13:42:27 IST" name="contactclose" finished-at="2024-12-13T13:42:27 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactclose -->
+      </class> <!-- Test.TC_010_CheckingAfterSuccessfulladdcontact_TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

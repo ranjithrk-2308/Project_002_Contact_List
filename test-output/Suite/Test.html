@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 13 13:40:52 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>112 seconds (112409 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test.TC_005_SignUpContactListAdd_TestCase.Signuptestcase()'><b>Signuptestcase</b><br>Test class: Test.TC_005_SignUpContactListAdd_TestCase</td>
+<td></td>
+<td>3</td>
+<td>Test.TC_005_SignUpContactListAdd_TestCase@6069db50</td></tr>
+<tr>
+<td title='Test.TC_007_OnlyMandatoryFields_TestCase.onlymandatoryfieldsTestCase()'><b>onlymandatoryfieldsTestCase</b><br>Test class: Test.TC_007_OnlyMandatoryFields_TestCase</td>
+<td></td>
+<td>2</td>
+<td>Test.TC_007_OnlyMandatoryFields_TestCase@1b7cc17c</td></tr>
+<tr>
+<td title='Test.TC_008_DuplicateDetails_TestCase.duplicatedetailsTestCase()'><b>duplicatedetailsTestCase</b><br>Test class: Test.TC_008_DuplicateDetails_TestCase</td>
+<td></td>
+<td>3</td>
+<td>Test.TC_008_DuplicateDetails_TestCase@67c27493</td></tr>
+<tr>
+<td title='Test.TC_006_EditTheContact_TestCase.editcontactTestcase()'><b>editcontactTestcase</b><br>Test class: Test.TC_006_EditTheContact_TestCase</td>
+<td></td>
+<td>8</td>
+<td>Test.TC_006_EditTheContact_TestCase@4efbca5a</td></tr>
+<tr>
+<td title='Test.TC_010_CheckingAfterSuccessfulladdcontact_TestCase.checkthecontactadded()'><b>checkthecontactadded</b><br>Test class: Test.TC_010_CheckingAfterSuccessfulladdcontact_TestCase</td>
+<td></td>
+<td>4</td>
+<td>Test.TC_010_CheckingAfterSuccessfulladdcontact_TestCase@72967906</td></tr>
+<tr>
+<td title='Test.TC_004_InvalidEmailPassword.invalidlogintest()'><b>invalidlogintest</b><br>Test class: Test.TC_004_InvalidEmailPassword</td>
+<td></td>
+<td>0</td>
+<td>Test.TC_004_InvalidEmailPassword@9597028</td></tr>
+<tr>
+<td title='Test.TC_011_DeletingAContact_TestCase.deletecontactTestCase()'><b>deletecontactTestCase</b><br>Test class: Test.TC_011_DeletingAContact_TestCase</td>
+<td></td>
+<td>2</td>
+<td>Test.TC_011_DeletingAContact_TestCase@5b8dfcc1</td></tr>
+<tr>
+<td title='Test.TC_002_LoginCheck_TestCase.LoginCheckTestCase()'><b>LoginCheckTestCase</b><br>Test class: Test.TC_002_LoginCheck_TestCase</td>
+<td></td>
+<td>0</td>
+<td>Test.TC_002_LoginCheck_TestCase@223191a6</td></tr>
+<tr>
+<td title='Test.TC_012_LogOut_TestCase.logout()'><b>logout</b><br>Test class: Test.TC_012_LogOut_TestCase</td>
+<td></td>
+<td>2</td>
+<td>Test.TC_012_LogOut_TestCase@2f9f7dcf</td></tr>
+<tr>
+<td title='Test.TC_001_SignUp_TestCase.SignUpTestCase()'><b>SignUpTestCase</b><br>Test class: Test.TC_001_SignUp_TestCase</td>
+<td></td>
+<td>5</td>
+<td>Test.TC_001_SignUp_TestCase@57a3af25</td></tr>
+<tr>
+<td title='Test.TC_009_InvalidDateFormat_TestCase.invaliddateformat()'><b>invaliddateformat</b><br>Test class: Test.TC_009_InvalidDateFormat_TestCase</td>
+<td></td>
+<td>3</td>
+<td>Test.TC_009_InvalidDateFormat_TestCase@1a482e36</td></tr>
+<tr>
+<td title='Test.TC_003_VerifyingWeatherSwitchingtoContact_TestCase.logintocontactscreenTestCase()'><b>logintocontactscreenTestCase</b><br>Test class: Test.TC_003_VerifyingWeatherSwitchingtoContact_TestCase</td>
+<td></td>
+<td>1</td>
+<td>Test.TC_003_VerifyingWeatherSwitchingtoContact_TestCase@49139829</td></tr>
+</table><p>
+</body>
+</html>
